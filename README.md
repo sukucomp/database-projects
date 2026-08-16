@@ -1,7 +1,7 @@
 # database-projects
 A working collection of database-management scripts, runbooks, and case studies. Built to close operational gaps that databases managed layer doesn't cover on its own.
 
-## Who I am
+## Who I am?
 
 I'm a systems engineer with experiences across maintenance engineering, IT consulting, and cloud infrastructure. I've worked with Azure and AWS.
 
