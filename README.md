@@ -16,3 +16,34 @@ Some of these were built the traditional way, hand-written and refined over time
 Each project lives in its own folder with a README explaining the problem it solves, the approach, and — where relevant — what actually happened when it ran in production, including the parts that didn't work as intended. 
 
 Feedback, alternative approaches, and pull requests are welcome.
+
+## Repository structure
+```
+database-projects/
+├── db/
+│   └── sql-db/
+│       ├── dms-cdc-setup-rds-sql-server/
+│       │   ├── enable-cdc.sql
+│       │   └── readme.md
+│       ├── extended-events-to-audit-tempdb-growth/
+│       │   ├── 1-xe-session.sql
+│       │   ├── 2-utility-db-tables.sql
+│       │   ├── 3-capture-proc.sql
+│       │   ├── 4-scheduling.sql
+│       │   ├── 5-retention.sql
+│       │   ├── 6-investigation.sql
+│       │   └── readme.md
+│       ├── fixing-slow-queries-by-adding-database-indexes/
+│       │   ├── index-deployment-case-study.sql
+│       │   └── readme.md
+│       ├── rds-sql-backup-restore-user-role-preservation/
+│       │   ├── 1-backup-database.sql
+│       │   ├── 2-capture-user-mappings.sql
+│       │   ├── 3-restore-database.sql
+│       │   ├── 4-replay-user-mappings.sql
+│       │   └── readme.md
+│       └── table-growth-tracker/
+│           ├── readme.md
+│           └── table-growth-tracker.sql
+└── README.md
+```
