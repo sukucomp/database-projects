@@ -1,5 +1,4 @@
 # database-projects
-
 A working collection of database-management scripts, runbooks, and case studies. Built to close operational gaps that databases managed layer doesn't cover on its own.
 
 ## Who I am
